@@ -35,7 +35,9 @@ app.use('/users', authenticationCheck, userRouter)
 app.use('/inventories', inventoriesRouter)
 app.use('/orders', ordersRouter)
 
-
+app.get('/', (req,res) => {
+  res.send('HOME')
+})
 
 
 

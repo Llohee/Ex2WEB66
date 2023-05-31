@@ -8,9 +8,6 @@ const {inventoriesRouter} = require('./routes/inventories')
 const { ordersRouter } = require('./routes/order');
 const {userModel} = require('./models/user');
 
-// const userRouter = express.Router
-// const inventoriesRouter = express.Router
-
 const app = express();
 
 mongoose.connect('mongodb+srv://nggiang141:Agera141@cluster0.inysgaa.mongodb.net/mindx')
